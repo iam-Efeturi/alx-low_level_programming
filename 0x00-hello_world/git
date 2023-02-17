@@ -1,0 +1,2 @@
+#!/bin/bash
+git add .; git commit -m 'C-0x00 Hello World'; git push
