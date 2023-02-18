@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*main- entry
- * return 0
+/*
+ * main - Entry
+ * return: ends with 0
  */
 int main(void)
 {
