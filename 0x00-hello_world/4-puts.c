@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * main - Entry
- * return: ends with 0
+/**
+ * main - Program uses puts function to print a line
+ * Return: ends with 0
  */
 int main(void)
 {
