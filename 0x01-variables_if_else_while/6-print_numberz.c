@@ -4,8 +4,10 @@
  * using prints or puts
  * i to indicate the number and conditions of i<10 to show
  * no two digit numbers
+ * while is part of the stdio library
  * Return: 0 when successful
 */
+
 int main(void)
 {
 	int i = 10;
@@ -13,7 +15,7 @@ int main(void)
 	while (i < 10)
 	{
 		putchar(i);
-		i++;
+		i--;
 	}
 	putchar('\n');
 
