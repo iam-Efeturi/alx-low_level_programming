@@ -6,7 +6,7 @@
  * Return: (1) This means the code returns 1 when successful
  * Imported the unistd library with stdio since we need a
  *  different command to print (using the write command)
- * write command needs us to know the total number of characters needed 
+ * write command needs us to know the total number of characters needed
  * (hence the 59) the newline character must be included too.
  * we return 1 as per the instructions in the question
  */
