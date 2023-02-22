@@ -1,16 +1,24 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <main.h>
-
-/* main - A program to return a phrase
+#include "main.h"
+/*
+ * main- This program prints _putchar
  * Return: 0 Program returns 0 when successful
- * Using write to print the _putchar phrase
+ * main.h is included in the library by default
+ * 
 */
 
 int main(void)
 
 {
-       write(1, "_putchar\n", 8);
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_Putchar("a");
+	_putchar("r");
+	_putchar("\n");
 
-return(0)       
+return 0;
+
 }
