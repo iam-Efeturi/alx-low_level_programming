@@ -1,23 +1,23 @@
 #include "main.h"
-/*
- * main - this program prints using _putchar, a selfmade function
- * Return: 0 Program returns 0 when successful
- * main.h is included is the library we just made
-*/
+
+
+/**
+ * main - Entry point
+ *
+ * Return: nothing, return void
+ */
 
 int main(void)
-
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
 return (0);
-
 }
