@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * main - This program prints _putchar
+ * main - this program prints using _putchar, a selfmade function
  * Return: 0 Program returns 0 when successful
  * main.h is included is the library we just made
 */
