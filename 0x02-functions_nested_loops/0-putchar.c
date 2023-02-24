@@ -1,12 +1,11 @@
 #include "main.h"
 /*
- * main- This program prints _putchar
+ * main - This program prints _putchar
  * Return: 0 Program returns 0 when successful
- * main.h is included in the library by default
- * 
+ * main.h is included is the library we just made
 */
 
-char main(void)
+int main(void)
 
 {
 	_putchar('_');
