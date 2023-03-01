@@ -15,18 +15,18 @@ int m;
 int letters;
 
 m = 0;
-while
-	(m < 10);
+while (m < 10)
 
-	{
-	for (letters = 'a'; letters <= 'z'; letters++)
-	{
-	_putchar("letters");
-	}
-	}
+{
+for (letters = 'a' ; letters <= 'z' ; letters++)
+{
+_putchar(letters);
+}
 
-	m++;
-	_putchar("\n");
+}
 
-	return (0);
+m++;
+_putchar("\n");
+
+return (0);
 }
