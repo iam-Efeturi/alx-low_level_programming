@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 int m;
 int letters;
 
-
+m = 0;
 while
 	(m < 10);
 
