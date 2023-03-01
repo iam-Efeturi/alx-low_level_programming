@@ -1,32 +1,30 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - This program prints a-z 10x
- * Return: 0 Program returns 0 when successful
- * Its going to be a nested loop
- * m is the number of times i want it to print
- * letters will be the alphabets
-*/
-
+ * print_alphabet_x10 - print the alphabets 10x
+ * using nested loops
+ * while is used to determine how many times we want
+ * the cycle to repeat
+ * for determines the action we want repeated
+ * Return: Always 0.
+ */
 void print_alphabet_x10(void)
-
 {
-int m;
 int letters;
+int cycle;
 
-m = 0;
-while (m < 10)
 
+cycle = 0;
+while (cycle < 10)
 {
-for (letters = 'a' ; letters <= 'z' ; letters++)
+for (letters = 'a' ; letters <= 'z'; letters++)
 {
 _putchar(letters);
 }
 
+cycle++;
+_putchar('\n');
 }
 
-m++;
-_putchar("\n");
 
-return (0);
 }
