@@ -19,9 +19,10 @@ while
 	(m < 10);
 
 	{
-	for (int letters = 'a'; letters <= 'z'; letters++)
-	letters++
+	for (letters = 'a'; letters <= 'z'; letters++)
+	{
 	_putchar("letters");
+	}
 	}
 
 	m++;
