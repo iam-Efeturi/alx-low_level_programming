@@ -1,28 +1,31 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - This program returns prints a-z 10x
- * Return: 0 Program returns zero when successful
- * Gonna be a nested loop
+ * print_alphabet_x10 - This program prints a-z 10x
+ * Return: 0 Program returns 0 when successful
+ * Its going to be a nested loop
+ * m is the number of times i want it to print
+ * letters will be the alphabets
 */
 
 void print_alphabet_x10(void)
 
 {
-	int m = 0;
+int m;
+int letters;
 
-	while
-		(m < 10);
+
+while
+	(m < 10);
 
 	{
-		char letters = a;
-
-		for (char letters = a; letters <= z; letters++)
-			_putchar('letter')
+	for (int letters = 'a'; letters <= 'z'; letters++)
+	letters++
+	_putchar("letters");
 	}
 
-	_putchar("\n");
 	m++;
+	_putchar("\n");
 
 	return (0);
 }
