@@ -6,6 +6,7 @@
  * @n: n will be the desired number
  * there will be return statements for each condition
  * using an if statement for this
+ * the last statement has the final return (-1)
 */
 
 int print_sign(int n)
@@ -27,8 +28,6 @@ else if (n == 0)
 else if (n < 0)
 	{
 	_putchar('-');
-	return (-1);
 	}
-
-return;
+	return (-1);
 }
