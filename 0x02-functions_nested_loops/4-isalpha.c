@@ -7,9 +7,8 @@
  * @c: c is what we're checking if an alphabet
 */
 
-int _isalpha(int c);
+int _isalpha(int c)
 
-int c;
 {
 return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
