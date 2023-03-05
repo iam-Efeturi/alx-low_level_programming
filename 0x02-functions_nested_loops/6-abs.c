@@ -2,18 +2,28 @@
 /**
  * _abs - Program gives the abbsolute value of input
  * Return: 0 returns the absolute value when successful
- * using _abs and _putchar
+ * in this case we're telling the function what to do
+ * using if statements with 3 scenarios
  * @k: The desired input number
- * @r: the result
 */
 
-int _abs(int k, r)
+int _abs(int k)
 
 {
+	if
+		(k < 0);
+	{
+	return (k * (-1));
+	}
 
-r = _abs(k);
-_putchar(r);
+	else if
+		(k == 0);
+	{
+	return (0);
+	}
 
-return (r);
-
+	else
+	{
+	return (k);
+	}
 }
