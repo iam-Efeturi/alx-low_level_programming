@@ -16,7 +16,7 @@ int digit;
 if
 	(m < 0)
 	{
-	digit = ((m * (-1)) % 10);
+	digit = (-1 * (m % 10));
 	_putchar (digit + '0');
 	return (digit);
 	}
