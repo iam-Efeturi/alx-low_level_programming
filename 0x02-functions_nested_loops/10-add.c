@@ -6,8 +6,8 @@
  * @n: our secont input n
 */
 
-int add(int i, int k)
+int add(int m, int n)
 
 {
-return (i + k);
+return (m + n);
 }
